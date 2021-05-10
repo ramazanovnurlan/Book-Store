@@ -1,0 +1,62 @@
+.wrapper{
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px!important;
+  line-height: 20px;
+  color: #424242;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+#row{
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px!important;
+  line-height: 20px;
+  color: #424242;
+  padding: 0;
+  margin: 0;
+  display: table-row;
+}
+.DnnModule{
+  line-height: 20px;
+  color: #424242;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop{
+  width: 1300px;
+  line-height: 20px;
+  color: #424242;
+  text-align: center;
+  font-weight: 400!important;
+  padding: 0;
+  margin: 0;
+}
+.desktop ol{
+  font-size: 14px!important;
+
+}
+
+#tdLeft{
+  width: 165px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px!important;
+  line-height: 20px;
+  color: #424242;
+  text-align: center;
+  font-weight: 400!important;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: 0 0;
+  overflow: hidden;
+  vertical-align: top;
+  display: inline-block;
+  width: 165px;
+}

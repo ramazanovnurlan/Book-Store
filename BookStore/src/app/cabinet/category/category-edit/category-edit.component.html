@@ -1,0 +1,31 @@
+
+<div *ngIf="editcategoryForm" class="container">
+    <div class="content">
+        <div class="w-100 text-center">
+            <h4>EDIT Category</h4>
+        </div>
+        <div class="row mt-3">
+            <div class="col-6 offset-3">
+                <form [formGroup]="editcategoryForm" (ngSubmit)="onSubmit(editcategoryForm)">
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Title</mat-label>
+                        <input matInput [formControlName]="'title'" required  placeholder="Enter new title">
+                    </mat-form-field>
+                </div> 
+                
+                
+                
+                <div class="justify-content-center">
+                    <a>
+                        <button  mat-menu-item class="filterButton">Edit</button>
+                    </a>
+                </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

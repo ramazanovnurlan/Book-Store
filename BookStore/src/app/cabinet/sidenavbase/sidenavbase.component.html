@@ -1,0 +1,78 @@
+<div id="sidebar" class='statusopen active'>
+    <div class="sidebar-wrapper active">
+        <div class="sidebar-header">
+        </div>
+        <div class="sidebar-menu">
+            <ul class="menu">
+                
+                
+                    <li class='sidebar-title'>Main Menu</li>
+                
+                    <li class="sidebar-item active " style="cursor: pointer;">
+                        <a  class='sidebar-link'>
+                            <i data-feather="home" width="20"></i> 
+                            <span>Users</span>
+                        </a>
+                        
+                    </li>
+
+                    <li class="sidebar-item  has-sub"style="cursor: pointer;" >
+                        <a routerLink="/cabinet/mybooks"  class='sidebar-link'>
+                            <span>Books</span>
+                        </a>
+                        
+                    </li>
+
+                
+                    <li class="sidebar-item  has-sub statusopensub" style="cursor: pointer;">
+                        <a routerLink="/cabinet/author-list" class='sidebar-link'>
+                            <span>Authors</span>
+                        </a>
+                        
+                    </li>
+
+                    <li class="sidebar-item  "style="cursor: pointer;">
+                        <a routerLink="/cabinet/category-list" class='sidebar-link'>
+                            <i  data-feather="layout" width="20"></i> 
+                            <span>Categories</span>
+                        </a>
+                        
+                    </li>
+
+                    <li routerLink="/cabinet/language-list" class="sidebar-item  "style="cursor: pointer;">
+                        <a  class='sidebar-link'>
+                            <span>Languages</span>
+                        </a>
+                        
+                    </li>
+                    
+            </ul>
+        </div>
+        <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+    </div>
+</div>
+<div id="main" style="margin-bottom: -550px;">
+    <nav class="navbar navbar-header navbar-expand navbar-light">
+        <a (click)='myfunccall()' id="mySidebar" class="sidebar-toggler" style="cursor: pointer;" ><span class="navbar-toggler-icon"></span></a>
+        <button  class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+               
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                        <div class="avatar mr-1">
+                        </div>
+                        <div class="d-none d-md-block d-lg-inline-block">Hi, Ramazan</div>
+                    </a>
+                  
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+</div>
+
+    <h2>Dasboard Page</h2>

@@ -1,0 +1,110 @@
+<app-menu></app-menu>
+<section class="section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+                <div class="leftbar p-r-20 p-r-0-sm">
+
+                    <div class="search-product"></div>
+
+                </div>
+                
+                 
+                <dl id="narrow-by-list" class="seftbar" style="padding-bottom: 25px;">
+                    <dt class="mb-2">Author</dt>
+                    <div class="scrolling-area">
+                        <div class="scrolling-element-inside">
+                            <div class="form-check">
+                            <div *ngFor="let author of authorList">
+                                <input (click)="onClickauthor(author.id)" class="common_selector brand" type="checkbox" value={{author.id}}>
+                                <label for="vehicle1" style="margin-left: 4px;">{{author.fullName}}</label><br>
+                            </div>
+                                
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </dl>
+
+                <dl id="narrow-by-list" class="seftbar" style="padding-bottom: 25px;">
+                    <dt class="mb-2">Category</dt>
+                    <div class="scrolling-area">
+                        <div class="scrolling-element-inside">
+                            <div class="form-check">
+                            <div *ngFor="let category of categoryList">
+                                <input (click)="onClickcategory(category.id)" class="common_selector brand" type="checkbox" value={{category.id}}>
+                                <label for="vehicle1" style="margin-left: 4px;">{{category.title}}</label><br>
+                            </div>
+                                
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </dl>
+                <dl id="narrow-by-list" class="seftbar" style="padding-bottom: 15px;">
+                    <dt class="mb-2">Book Language</dt>
+                    <div class="scrolling-area">
+                        <div class="scrolling-element-inside">
+                            <div class="form-check">
+                            <div *ngFor="let language of languageList">
+                                <input (click)="onClicklang(language.id)" class="common_selector brand" type="checkbox" value={{language.id}}>
+                                <label for="vehicle1" style="margin-left: 4px;">{{language.title}}</label><br>
+                            </div>
+                                
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </dl>
+
+            </div>
+            
+
+            <div class="col-sm-6 col-md-8 col-lg-9">
+                <div class="cloth row"   >
+                    
+                        <div *ngFor="let product of products" class=" alfa  col-sm-12 col-md-6 col-lg-4  pb-5 current">
+                            <div (click)="clickFunction(product.id)"  class="img1">
+                                <a id="img"><img src="../../assets/img/{{product.imagename}}" alt="img" width="200px" height="250px" style="cursor: pointer;" /></a>
+
+                            </div>
+                            <div class="info">
+                                <p>{{product.title}}</p>
+                                <span> {{product.price}} $</span>
+                            </div>
+                            <div class="addTocart">
+                                <button style="background-color: #0D8B7C; border: none;padding: 5px 15px;color: white;">Add To cart</button>
+                            </div>
+                        </div>
+
+                    
+                </div>
+            </div>
+        </div>
+      
+
+
+    </div>
+
+</section>
+<div style="justify-content: center; ">
+    <ul  class="pagination">
+        <li [ngClass]="{disabled:pager.currentPage === 1}" style="padding: 4px;">
+            <a (click)="setPage(1)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === 1}"style="padding: 4px;">
+            <a (click)="setPage(pager.currentPage - 1)"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </li>
+        <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}" style="padding: 4px;">
+            <a (click)="setPage(page)">{{page}}</a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}"style="padding: 4px;">
+            <a (click)="setPage(pager.currentPage + 1)"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}"style="padding: 4px;">
+            <a (click)="setPage(pager.totalPages)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</div>
+
+<app-footer></app-footer>

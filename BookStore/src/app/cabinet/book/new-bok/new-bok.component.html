@@ -1,0 +1,71 @@
+<div class="container" *ngIf="authorList && categoryList && languageList">
+    <div class="content">
+            <div class="w-100 text-center"><h4>Create New Book</h4></div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form [formGroup]="newBookForm" (ngSubmit)="onSubmit(newBookForm)">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Title</mat-label>
+                        <input matInput [formControlName]="'title'" required>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Description </mat-label>
+                        <input matInput [formControlName]="'description'" required>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Price </mat-label>
+                        <input matInput [formControlName]="'price'" required>
+                    </mat-form-field>
+                    <br>
+                    
+                    
+                    <!-- <mat-form-field appearance="fill">
+                        <mat-label>Expiration Date</mat-label>
+                        <input matInput [formControlName]="'expdate'" required>
+                        <mat-error *ngIf="newCardForm.get('expdate').invalid">Expiration Date is required</mat-error>
+                    </mat-form-field>
+                    <br> -->
+                  
+                   <mat-form-field appearance="fill">
+                        <mat-label>Authors</mat-label>
+                        <mat-select [formControlName]="'author'" >
+                            <mat-option *ngFor="let el of authorList" [value]="el.fullName" >
+                                {{el.fullName}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Category</mat-label>
+                        <mat-select [formControlName]="'category'">
+                            <mat-option *ngFor="let el of categoryList" [value]="el.title">
+                                {{el.title}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Language</mat-label>
+                        <mat-select [formControlName]="'languagename'">
+                            <mat-option *ngFor="let el of languageList" [value]="el.title">
+                                {{el.title}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <br>
+                    <label style="margin-right: 3px;">Choose Book image </label>
+                    <input type="file" #fileInput id="uploadFile" (change)="uploadFileEvt($event)" name="uploadFile" multiple="multiple" accept="image/*" />
+                    <div class="col-12 text-right submit">
+                        <a href="">
+                            <button mat-raised-button color="primary" type="submit">Create</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container" >
+    <div class="content">
+            <div class="w-100 text-center"><h4>Create Author</h4></div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form [formGroup]="newAuthorForm" (ngSubmit)="onSubmit(newAuthorForm)">
+                    <mat-form-field appearance="fill">
+                        <mat-label>FullName</mat-label>
+                        <input matInput [formControlName]="'fullName'" required>
+                        <!-- <mat-error *ngIf="newAuthorForm.get('fullName').invalid">Fullname is required</mat-error> -->
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Biography </mat-label>
+                        <input matInput [formControlName]="'biography'" required>
+                    </mat-form-field>
+                    <br>
+                    <div class="col-12 text-right submit">
+                        <a href="">
+                            <button mat-raised-button color="primary" type="submit">Create</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+

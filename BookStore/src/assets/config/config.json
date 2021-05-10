@@ -1,0 +1,8 @@
+{
+    "other":{
+        "clearStorageHour": 2,
+        "resourceApiURI_AZ": "http://localhost:54421/az-Latn-AZ/api/v1",
+        "resourceApiURI_EN": "http://localhost:54421/en-US/api/v1",
+        "resourceApiURI_RU": "http://localhost:54421/ru-RU/api/v1"      
+    }  
+}

@@ -1,0 +1,75 @@
+<div class="header">
+    <div class="menu">
+     <svg class="line-top" width="750" height="15" viewbox="0,0 1000,20">
+      <line class="line-dash" x1="0" y1="15" x2="1000" y2="15"
+       style="stroke: 	#1a1d1d; stroke-width:2; stroke-linecap:round; stroke-dasharray: 180,1200; stroke-dashoffset: -35;"/>
+     </svg>
+     <ul>
+      <li><a class="nav-link" routerLink="/home">Home</a></li>
+      <li><a class="nav-link" [routerLink]="['/books']">Books</a></li>
+      <li><a class="nav-link" [routerLink]="['/about']">About</a></li>
+      <li><a class="nav-link" [routerLink]="['/blog']">Blog</a></li>
+     </ul>
+     <!-- <svg class="line-bottom" width="750" height="30" viewbox="0,0 1000,40">
+      <polygon class="lb" points="35,53 115,53 125,43 135,53 215,53" />
+      <polygon class="lb" points="285,53 365,53 375,43 385,53 465,53" />
+   
+      <polygon class="lb" points="535,53 615,53 625,43 635,53 715,53" />
+   
+      <polygon class="lb" points="785,53 865,53 875,43 885,53 965,53" />
+     </svg> -->
+    </div>
+   </div>
+   <div class="DesktopHeader Content">
+     <div class="DesktopHeader-left">
+       <img class="DesktopHeader-logo"  src="https://static.thriftbooks.com/images/tblogo-green_20200225.svg">
+       <div class="SearchContainer SearchContainer--desktop" id="GlobalSearch">
+          <div class="Search">
+            <input class="Search-input is-empty" placeholder="Search 13 million titles by title, author" type="text">
+            <button class="Search-reset" type="button"></button>
+            <a id="ScanButton" class="ScanButton" href="/app/scan/"><svg class="Icon"><use xlink:href="#Icon--barcode"></use></svg></a>
+            <div class="Search-submit Button-container is-flat" title=""><button class="Button" type="button"><div><svg class="Icon" aria-hidden="true"><use class="alfa" xlink:href="#Icon--search"><svg id="Icon--search" class="IconSymbol" viewBox="0 0 24 23.5"><path d="M23.3 19.5L18.9 15c.8-1.5 1.3-3.2 1.3-5 0-5.5-4.5-10-10.1-10S0 4.5 0 10.1s4.5 10.1 10.1 10.1c2.1 0 4-.6 5.6-1.7l4.3 4.3c.5.5 1.1.7 1.6.7.6 0 1.2-.2 1.6-.7 1-.9 1-2.4.1-3.3zM3.1 10.1c0-3.9 3.1-7 7-7s7 3.1 7 7-3.1 7-7 7-7-3.2-7-7z"></path></svg> </use></svg><div class="tb-hiddenText"></div></div></button></div>
+          </div>
+       </div>
+
+       <div  class="dropdown">
+        <a (click)='myalfa()' class="dropbtn" style="border: none;padding: 8px; ">
+          <i class="fa fa-globe" aria-hidden="true" style="font-size: 20px;"></i>
+          
+          {{lang().toUpperCase()}}
+          <i class="fa fa-caret-down" aria-hidden="true" style="font-size: 13px; margin-left: 3px;padding: 2px;"></i>
+        </a>
+        <div id="myDropdown" class="dropdown-content">
+          <a  mat-menu-item  (click)="useLanguage('en')">EN</a>
+          <a  mat-menu-item  (click)="useLanguage('az')">AZ</a>
+          <a  mat-menu-item  (click)="useLanguage('ru')">RU</a>
+        </div>
+       </div>
+       <div>
+       <!-- <select #locale (change)="useLanguage(locale.value)">{{lang().toUpperCase()}}
+        <option value="az">AZ</option>
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
+      </select> -->
+       <!-- <button mat-button [matMenuTriggerFor]="menu">{{lang().toUpperCase()}} <i class="material-icons">keyboard_arrow_down</i></button>
+    <mat-menu #menu="matMenu">
+      <button  *ngIf='lang().toLowerCase()=="az"' mat-menu-item  (click)="useLanguage('en')">EN</button>
+      <button  *ngIf='lang().toLowerCase()=="en"' mat-menu-item  (click)="useLanguage('az')">AZ</button>
+      <button  *ngIf='lang().toLowerCase()=="ru"' mat-menu-item  (click)="useLanguage('ru')">RU</button>
+    </mat-menu> -->
+     </div>
+     <div class="DesktopHeader-right">
+       <div *ngIf='isLogin()==false' class="base" ><div><a [routerLink]="['/login']"  onMouseOver="this.style.color='white'" onMouseOut="this.style.color='black'">Login</a></div></div>
+       <div *ngIf='isLogin()==false' class="base"><div><a [routerLink]="['/register'] " onMouseOver="this.style.color='white'" onMouseOut="this.style.color='black'">Register</a></div></div>
+       <div *ngIf='isLogin()==true' style="margin-right: 3px;">Hi,{{getUsername().username}}</div>
+       <div class="base"><div><a [routerLink]="['/cabinet']" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='black'">Şəxsi Kabinet</a></div></div>
+       <div *ngIf='isLogin()==true' class="base"><div><a onMouseOver="this.style.color='white'" onMouseOut="this.style.color='black'" (click)="signOut()">Log out</a></div></div>
+     </div>
+   </div>
+   <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    
+    </script>
+
+   

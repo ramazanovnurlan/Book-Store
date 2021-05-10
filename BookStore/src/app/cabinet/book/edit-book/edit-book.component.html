@@ -1,0 +1,59 @@
+<div *ngIf="editBookForm" class="container">
+    <div class="content">
+        <div class="w-100 text-center">
+            <h4>EDIT Book</h4>
+        </div>
+        <div class="row mt-3">
+            <div class="col-6 offset-3">
+                <form [formGroup]="editBookForm" (ngSubmit)="onSubmit(editBookForm)">
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Title</mat-label>
+                        <input matInput [formControlName]="'title'" required  placeholder="Enter new title">
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Description</mat-label>
+                        <input matInput [formControlName]="'description'" type="text" placeholder="Enter new description...">
+                    </mat-form-field>
+                </div>
+                
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Image name</mat-label>
+                        <input matInput [formControlName]="'imagename'" type="text" placeholder="" readonly>
+                    </mat-form-field>
+                </div>
+                
+                <!-- <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Expiration Date</mat-label>
+                        <input matInput [matDatepicker]="dp" [formControlName]="'expDate'">
+                        <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                        <mat-datepicker #dp startView="multi-year" (yearSelected)="chosenYearHandler($event)"
+                            (monthSelected)="chosenMonthHandler($event, dp)" panelClass="example-month-picker">
+                        </mat-datepicker>
+                    </mat-form-field>
+                </div> -->
+                <div>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Language</mat-label>
+                        <mat-select  [formControlName]="'languagename'" >
+                            <mat-option [value]="0" ><span translate  >{{language.title}}</span></mat-option>
+                            <mat-option *ngFor="let el of languageList" [value]="el.title">{{el.title}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <input type="file" #fileInput id="uploadFile" (change)="uploadFileEvt($event)" name="uploadFile" multiple="multiple" accept="image/*" />
+                <div class="justify-content-center">
+                    <a>
+                        <button  mat-menu-item class="filterButton">Edit</button>
+                    </a>
+                </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
