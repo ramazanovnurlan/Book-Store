@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT_BCSC" xml:space="preserve">
+    <value>ABOUT BCSC</value>
+  </data>
+  <data name="ABOUT_PROJECT" xml:space="preserve">
+    <value>ABOUT PORTAL</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="Additional_notes_administrator" xml:space="preserve">
+    <value>Additional notes of an administrator</value>
+  </data>
+  <data name="Ajax_error" xml:space="preserve">
+    <value>Error! Could not process the request</value>
+  </data>
+  <data name="Ajax_server_error" xml:space="preserve">
+    <value>Error while processing request</value>
+  </data>
+  <data name="Approve_code_is_required" xml:space="preserve">
+    <value>Approve code is required</value>
+  </data>
+  <data name="Approve_Email" xml:space="preserve">
+    <value>Email approve</value>
+  </data>
+  <data name="Approve_SMS" xml:space="preserve">
+    <value>SMS approve</value>
+  </data>
+  <data name="Are_you_sure_want_accept_certificate" xml:space="preserve">
+    <value>Are you sure you want to accept the request?</value>
+  </data>
+  <data name="Are_you_sure_want_cancel_certificate" xml:space="preserve">
+    <value>Are you sure you want to cancel the request?</value>
+  </data>
+  <data name="Are_you_sure_want_hold_certificate" xml:space="preserve">
+    <value>Are you sure you want to defer the request?</value>
+  </data>
+  <data name="Are_you_sure_want_revoke_certificate" xml:space="preserve">
+    <value>Are you sure you want to revoke the certificate?</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Back_enlisted_certificates" xml:space="preserve">
+    <value>Revoked certificates</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CENTRAL_BANK" xml:space="preserve">
+    <value>CENTRAL BANK</value>
+  </data>
+  <data name="CENTRAL_BANK_OF_AZERBAIJAN" xml:space="preserve">
+    <value>CENTRAL BANK OF THE REPUBLIC OF AZERBAIJAN</value>
+  </data>
+  <data name="Cerfiticate_expire_date" xml:space="preserve">
+    <value>Cerfiticate expire date</value>
+  </data>
+  <data name="Ceritficate_request" xml:space="preserve">
+    <value>Ceritficate request</value>
+  </data>
+  <data name="Ceritficate_requests" xml:space="preserve">
+    <value>Ceritficate requests</value>
+  </data>
+  <data name="Certificate_exists" xml:space="preserve">
+    <value>There is already a certificate in this token. Only one certificate per token is allowed.</value>
+  </data>
+  <data name="Certificate_name" xml:space="preserve">
+    <value>Certificate name</value>
+  </data>
+  <data name="Certificate_not_found" xml:space="preserve">
+    <value>Search parameters certificate not found</value>
+  </data>
+  <data name="Certificate_owner" xml:space="preserve">
+    <value>Certificate owner</value>
+  </data>
+  <data name="Certificate_payment" xml:space="preserve">
+    <value>Certificate payment</value>
+  </data>
+  <data name="Certifications_Report" xml:space="preserve">
+    <value>Certificates report</value>
+  </data>
+  <data name="Change_password" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="Check_connection_with_inquiry_generator" xml:space="preserve">
+    <value>Check the connection with request generator</value>
+  </data>
+  <data name="Check_for_payment" xml:space="preserve">
+    <value>Check for payment</value>
+  </data>
+  <data name="Common_name" xml:space="preserve">
+    <value>Common name</value>
+  </data>
+  <data name="Confirm_new_password" xml:space="preserve">
+    <value>Confirm new password</value>
+  </data>
+  <data name="CONTACT_INFORMATION" xml:space="preserve">
+    <value>CONTACT INFORMATION</value>
+  </data>
+  <data name="CONTACT_US" xml:space="preserve">
+    <value>CONTACT US</value>
+  </data>
+  <data name="copyright_text" xml:space="preserve">
+    <value>Electronic Services Portal of the Central Bank of the Republic of Azerbaijan</value>
+  </data>
+  <data name="Could_not_connect_request_generator" xml:space="preserve">
+    <value>Error! Could not connect to &lt;a href=\"{0}\" target=\"_blank\"&gt;request generator&lt;/a&gt; service.</value>
+  </data>
+  <data name="Could_not_install_cert" xml:space="preserve">
+    <value>Error! Could not install certificate</value>
+  </data>
+  <data name="Create_new_survey" xml:space="preserve">
+    <value>Create new request</value>
+  </data>
+  <data name="Current_password" xml:space="preserve">
+    <value>Current password</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Determine_reasons_request_canceled" xml:space="preserve">
+    <value>Determine the reasons for your request (to be mentioned later) has been canceled</value>
+  </data>
+  <data name="DOCUMENTS" xml:space="preserve">
+    <value>DOCUMENTS</value>
+  </data>
+  <data name="Document_subject" xml:space="preserve">
+    <value>Document subject</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Download_certificate" xml:space="preserve">
+    <value>Download certificate</value>
+  </data>
+  <data name="Download_certificate_file" xml:space="preserve">
+    <value>Download certificate file (.cer)</value>
+  </data>
+  <data name="Download_Survey_generator_program" xml:space="preserve">
+    <value>Download Request generator program</value>
+  </data>
+  <data name="Download_the_application_form" xml:space="preserve">
+    <value>Download the application form</value>
+  </data>
+  <data name="Driver_name" xml:space="preserve">
+    <value>Driver name</value>
+  </data>
+  <data name="Driver_size" xml:space="preserve">
+    <value>Driver size</value>
+  </data>
+  <data name="Eject_token" xml:space="preserve">
+    <value>You selected Microsoft CSP. Please eject token.</value>
+  </data>
+  <data name="ELECTRONIC_SERVICES_PORTAL" xml:space="preserve">
+    <value>ELECTRONIC SERVICES PORTAL</value>
+  </data>
+  <data name="Email_sent_to_number" xml:space="preserve">
+    <value>Approve mail is sent to {0} email address</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Enter_the_code_in_the_picture" xml:space="preserve">
+    <value>Enter the code in the picture</value>
+  </data>
+  <data name="Entry" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>logout</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Failed_attempt_count_exceeded_limit" xml:space="preserve">
+    <value>Failed attempt count exceeded limit</value>
+  </data>
+  <data name="Frequently_asked_questions" xml:space="preserve">
+    <value>Frequently asked questions</value>
+  </data>
+  <data name="Go_to_test_url" xml:space="preserve">
+    <value>Check connection to request generator service</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Defer</value>
+  </data>
+  <data name="HOME_PAGE" xml:space="preserve">
+    <value>HOME PAGE</value>
+  </data>
+  <data name="Incorrect_PIN" xml:space="preserve">
+    <value>Incorrect PIN</value>
+  </data>
+  <data name="INFORMATION_ABOUT_THE_ORGANIZATION" xml:space="preserve">
+    <value>INFORMATION ABOUT THE ORGANIZATION</value>
+  </data>
+  <data name="INFORMATION_CERTIFICATE" xml:space="preserve">
+    <value>CERTIFICATE INFORMATION</value>
+  </data>
+  <data name="Install_certificate" xml:space="preserve">
+    <value>Install certificate</value>
+  </data>
+  <data name="Invoice_number" xml:space="preserve">
+    <value>Invoice number</value>
+  </data>
+  <data name="In_validation_period" xml:space="preserve">
+    <value>In validation period</value>
+  </data>
+  <data name="It_was_not_possible_create_certificate_request" xml:space="preserve">
+    <value>Error! Could not create certificate request.</value>
+  </data>
+  <data name="Log_in" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="Log_in_e_signature" xml:space="preserve">
+    <value>Log in with e-signature</value>
+  </data>
+  <data name="Make_payment" xml:space="preserve">
+    <value>Make payment</value>
+  </data>
+  <data name="Max_length_of_form_data_exceeded" xml:space="preserve">
+    <value>Maximum length of entered data exceeds limit. Please decrease length of organization name field or other large field and try again.</value>
+  </data>
+  <data name="Mobile_SMS_hint" xml:space="preserve">
+    <value>This number will be used for sending approve SMS</value>
+  </data>
+  <data name="New_password" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="New_survey_generator" xml:space="preserve">
+    <value>Error! Could not connect to &lt;a href=\"{0}\" target=\"_blank\"&gt;request generator&lt;/a&gt; service, it is required for creating new request.</value>
+  </data>
+  <data name="New_survey_generator_app_download" xml:space="preserve">
+    <value>You have to install application to create certificate request. Please use &lt;a href={0} target="_blank"&gt;this link&lt;/a&gt; to download and install application.</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Not_passed_validation" xml:space="preserve">
+    <value>Not validated</value>
+  </data>
+  <data name="Old_version" xml:space="preserve">
+    <value>Error! You are using the  old version of the request generator program. Please install new version.</value>
+  </data>
+  <data name="Old_version_with_url" xml:space="preserve">
+    <value>Error! You are using the old version of the request generator. Please install &lt;a href=\"{0}\" target=\"_blank\"&gt;new version&lt;/a&gt;.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Operating_system" xml:space="preserve">
+    <value>Operating system</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="OTHER_INFORMATION" xml:space="preserve">
+    <value>OTHER INFORMATION</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Payment_amount" xml:space="preserve">
+    <value>Payment amount</value>
+  </data>
+  <data name="Payment_completed_successfully" xml:space="preserve">
+    <value>Payment completed successfully</value>
+  </data>
+  <data name="Payment_date" xml:space="preserve">
+    <value>Payment date</value>
+  </data>
+  <data name="Payment_type" xml:space="preserve">
+    <value>Payment type</value>
+  </data>
+  <data name="Payment_was_made" xml:space="preserve">
+    <value>Payment was made</value>
+  </data>
+  <data name="PERSONAL_INFORMATION" xml:space="preserve">
+    <value>PERSONAL INFORMATION</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="PII_agree" xml:space="preserve">
+    <value>I agree with personally identifiable information processing rules</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Program_name" xml:space="preserve">
+    <value>Program name</value>
+  </data>
+  <data name="RC" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Ready_to_request" xml:space="preserve">
+    <value>Send ready request</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Receipt_not_sent" xml:space="preserve">
+    <value>Error occured while sending receipt</value>
+  </data>
+  <data name="Receipt_sent" xml:space="preserve">
+    <value>Receipt was sent to your email address</value>
+  </data>
+  <data name="Recheck" xml:space="preserve">
+    <value>Recheck</value>
+  </data>
+  <data name="Register_date" xml:space="preserve">
+    <value>Register date</value>
+  </data>
+  <data name="REGISTRATION_CENTER_LOGIN" xml:space="preserve">
+    <value>REGISTRATION CENTER</value>
+  </data>
+  <data name="REGISTRATION_CENTER_WORKPLACE" xml:space="preserve">
+    <value>REGISTRATION CENTER WORKPLACE</value>
+  </data>
+  <data name="Registration_number" xml:space="preserve">
+    <value>Registration number</value>
+  </data>
+  <data name="Request_canceled" xml:space="preserve">
+    <value>Your request was canceled</value>
+  </data>
+  <data name="Request_certificate_registered_and_sent" xml:space="preserve">
+    <value>Your request for a certificate registered and sent to the certification center</value>
+  </data>
+  <data name="Request_has_not_yet_considered" xml:space="preserve">
+    <value>Your request has not yet considered</value>
+  </data>
+  <data name="REQUEST_INFORMATION" xml:space="preserve">
+    <value>REQUEST INFORMATION</value>
+  </data>
+  <data name="Request_prepared_certificates" xml:space="preserve">
+    <value>Your request has been prepared certificates</value>
+  </data>
+  <data name="Request_temporarily_suspended_registration" xml:space="preserve">
+    <value>Your request has been temporarily suspended registration</value>
+  </data>
+  <data name="Request_text" xml:space="preserve">
+    <value>Request text</value>
+  </data>
+  <data name="Resend_code" xml:space="preserve">
+    <value>Resend code</value>
+  </data>
+  <data name="Revokation_queries" xml:space="preserve">
+    <value>Revocation requests</value>
+  </data>
+  <data name="Revokation_query" xml:space="preserve">
+    <value>Revocation request</value>
+  </data>
+  <data name="RevokeCert" xml:space="preserve">
+    <value>Revoke certificate</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Search_data_have_been_included_in_error" xml:space="preserve">
+    <value>Search data have been included in error. Please try again</value>
+  </data>
+  <data name="Selected_certificate_recall" xml:space="preserve">
+    <value>Revoke selected certificate(s)</value>
+  </data>
+  <data name="Send_receipt" xml:space="preserve">
+    <value>Send receipt to your email address</value>
+  </data>
+  <data name="Send_request" xml:space="preserve">
+    <value>Send request</value>
+  </data>
+  <data name="Sent_request_certificate_recall" xml:space="preserve">
+    <value>Revoke request sent for {0} certificate(s)</value>
+  </data>
+  <data name="Sent_to_payment" xml:space="preserve">
+    <value>Sent to payment</value>
+  </data>
+  <data name="SMS_approval_code_is_wrong" xml:space="preserve">
+    <value>Approval code is wrong</value>
+  </data>
+  <data name="SMS_approved" xml:space="preserve">
+    <value>Code approved</value>
+  </data>
+  <data name="SMS_exceeded_limit" xml:space="preserve">
+    <value>Count exceeded limit</value>
+  </data>
+  <data name="SMS_resend_message" xml:space="preserve">
+    <value>Didn't receive an approval code?</value>
+  </data>
+  <data name="SMS_resent" xml:space="preserve">
+    <value>Approval code resent</value>
+  </data>
+  <data name="SMS_resent_to_number" xml:space="preserve">
+    <value>Code is resent to number {0}</value>
+  </data>
+  <data name="SMS_sent_to_number" xml:space="preserve">
+    <value>Code is sent to number {0}</value>
+  </data>
+  <data name="SOFTWARE" xml:space="preserve">
+    <value>SOFTWARE</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Successfully_changed_password" xml:space="preserve">
+    <value>Successfully changed password.</value>
+  </data>
+  <data name="Successful_request_generator_connection" xml:space="preserve">
+    <value>Successfully connected to request generator.</value>
+  </data>
+  <data name="Success_install_cert" xml:space="preserve">
+    <value>Certificate installed successfully</value>
+  </data>
+  <data name="Survey_did_not_connect_generator_service" xml:space="preserve">
+    <value>Error! Could not connect to request generator service.</value>
+  </data>
+  <data name="Survey_Number" xml:space="preserve">
+    <value>Unique number</value>
+  </data>
+  <data name="Text_exceeds_max_length" xml:space="preserve">
+    <value>Text exceeds max length</value>
+  </data>
+  <data name="Token_not_found" xml:space="preserve">
+    <value>Token not found</value>
+  </data>
+  <data name="Token_order_added" xml:space="preserve">
+    <value>Your order is added. Document number:</value>
+  </data>
+  <data name="Token_payment" xml:space="preserve">
+    <value>Token payment</value>
+  </data>
+  <data name="Token_sale" xml:space="preserve">
+    <value>Token sale</value>
+  </data>
+  <data name="Token_sales" xml:space="preserve">
+    <value>Token sales</value>
+  </data>
+  <data name="Transaction_id" xml:space="preserve">
+    <value>Transaction number</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Update_date" xml:space="preserve">
+    <value>Update date</value>
+  </data>
+  <data name="User_certificates" xml:space="preserve">
+    <value>User certificates</value>
+  </data>
+  <data name="User_certificaty" xml:space="preserve">
+    <value>User certificate</value>
+  </data>
+  <data name="Validity_time" xml:space="preserve">
+    <value>Validity time</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>WARNING</value>
+  </data>
+  <data name="Withdraw_certificate_chose_continue" xml:space="preserve">
+    <value>{0} certificate(s) were found. Choose certificate(s) you want to revoke and continue.</value>
+  </data>
+  <data name="Your_request_has_not_yet_considered" xml:space="preserve">
+    <value>Your request has not yet considered</value>
+  </data>
+</root>

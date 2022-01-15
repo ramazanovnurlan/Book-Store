@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept_agreement" xml:space="preserve">
+    <value>Sertifikatın ləğv edilməsi qaydaları ilə razıyam</value>
+  </data>
+  <data name="Assignment_of_certificate" xml:space="preserve">
+    <value>Sertifikatın təyinatı</value>
+  </data>
+  <data name="Azerbaijan" xml:space="preserve">
+    <value>Azərbaycan</value>
+  </data>
+  <data name="Birth_place" xml:space="preserve">
+    <value>Doğulduğu yer</value>
+  </data>
+  <data name="Card_first_six_digits" xml:space="preserve">
+    <value>Ödəniş kartının ilk 6 rəqəmi</value>
+  </data>
+  <data name="Card_number" xml:space="preserve">
+    <value>Vəsiqənin nömrəsi</value>
+  </data>
+  <data name="Card_series" xml:space="preserve">
+    <value>Vəsiqənin seriyası</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kateqoriya</value>
+  </data>
+  <data name="CertAssignment" xml:space="preserve">
+    <value>Sertifikatın təyinatı</value>
+  </data>
+  <data name="Certificate_common_name_CN" xml:space="preserve">
+    <value>Sertifikatın ümumi adı (CN)</value>
+  </data>
+  <data name="Certificate_Request_CSR_text" xml:space="preserve">
+    <value>Sertifikat sorğusunun (CSR) mətni</value>
+  </data>
+  <data name="Certificate_Template" xml:space="preserve">
+    <value>Sertifikat şablonu</value>
+  </data>
+  <data name="Certification_center" xml:space="preserve">
+    <value>Sertifikat mərkəzi</value>
+  </data>
+  <data name="CertTemplate" xml:space="preserve">
+    <value>Sertifikatın şablonu</value>
+  </data>
+  <data name="Citizenship" xml:space="preserve">
+    <value>Vətəndaşlıq</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Şəhər</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Say</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Ölkə</value>
+  </data>
+  <data name="Cryptoprovider_type" xml:space="preserve">
+    <value>Kriptoprovayderin tipi</value>
+  </data>
+  <data name="Crypt_CSP_type" xml:space="preserve">
+    <value>Kriptoprovayderin (CSP) tipi</value>
+  </data>
+  <data name="Date_of_birth" xml:space="preserve">
+    <value>Doğum tarixi</value>
+  </data>
+  <data name="Date_of_birth_day_month_year" xml:space="preserve">
+    <value>Doğum tarixi (gün,ay,il)</value>
+  </data>
+  <data name="DMX_doc_number" xml:space="preserve">
+    <value>İcazə vəsiqəsinin nömrəsi</value>
+  </data>
+  <data name="DMX_doc_type" xml:space="preserve">
+    <value>İcazə vəsiqəsinin tipi</value>
+  </data>
+  <data name="DMX_doc_type_permanent" xml:space="preserve">
+    <value>Daimi</value>
+  </data>
+  <data name="DMX_doc_type_temporary" xml:space="preserve">
+    <value>Müvəqqəti</value>
+  </data>
+  <data name="Dns_Names" xml:space="preserve">
+    <value>SAN dns names</value>
+  </data>
+  <data name="Effective_Date" xml:space="preserve">
+    <value>Qüvvəyə minmə tarixi</value>
+  </data>
+  <data name="Expiry_Date" xml:space="preserve">
+    <value>Qüvvədən düşmə tarixi</value>
+  </data>
+  <data name="E_mail_address" xml:space="preserve">
+    <value>E-poçt ünvanı</value>
+  </data>
+  <data name="E_signature_carrier_serial_number" xml:space="preserve">
+    <value>E-imza daşıyıcısının seriya nömrəsi</value>
+  </data>
+  <data name="Father_s_name" xml:space="preserve">
+    <value>Atasının adı</value>
+  </data>
+  <data name="Home_Address" xml:space="preserve">
+    <value>Yaşadığı ünvan</value>
+  </data>
+  <data name="ID_card_PIN_code" xml:space="preserve">
+    <value>Şəxsiyyət vəsiqəsi FİN kodu</value>
+  </data>
+  <data name="ID_card_serial_number" xml:space="preserve">
+    <value>Seriya və nömrə</value>
+  </data>
+  <data name="IpAdresses" xml:space="preserve">
+    <value>SAN ip siyahısı</value>
+  </data>
+  <data name="Juridical_person" xml:space="preserve">
+    <value>Hüquqi şəxs</value>
+  </data>
+  <data name="Key_length" xml:space="preserve">
+    <value>Açarın uzunluğu</value>
+  </data>
+  <data name="manat" xml:space="preserve">
+    <value>manat</value>
+  </data>
+  <data name="Mobile_phone" xml:space="preserve">
+    <value>Mobil telefon</value>
+  </data>
+  <data name="Mobile_phone_code" xml:space="preserve">
+    <value>Mobil telefon kodu</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Name_of_organization" xml:space="preserve">
+    <value>Təşkilatın adı</value>
+  </data>
+  <data name="Nonresident" xml:space="preserve">
+    <value>Qeyri-rezident</value>
+  </data>
+  <data name="Organization_address" xml:space="preserve">
+    <value>Təşkilatın ünvanı</value>
+  </data>
+  <data name="organization_s_phone_number" xml:space="preserve">
+    <value>Təşkilatın tel. nömrəsi</value>
+  </data>
+  <data name="organization_s_zip_code" xml:space="preserve">
+    <value>Təşkilatın poçt indeksi</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parol</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Physical_person" xml:space="preserve">
+    <value>Fiziki şəxs</value>
+  </data>
+  <data name="PIN_code" xml:space="preserve">
+    <value>FİN kod</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Tutduğu vəzifəsi</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Qiymət</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Məhsul</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Səbəb</value>
+  </data>
+  <data name="Reason_for_liquidation" xml:space="preserve">
+    <value>Ləğvetmə səbəbi</value>
+  </data>
+  <data name="Reason_for_liquidation_large_explanation" xml:space="preserve">
+    <value>Ləğvetmə səbəbinin geniş izahı</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Registered_address" xml:space="preserve">
+    <value>Qeydiyyat ünvanı</value>
+  </data>
+  <data name="Registration_center" xml:space="preserve">
+    <value>Qeydiyyat mərkəzi</value>
+  </data>
+  <data name="Registration_center_address" xml:space="preserve">
+    <value>Qeydiyyat mərkəzinin ünvanı</value>
+  </data>
+  <data name="Registration_in_the_district_center" xml:space="preserve">
+    <value>Qeydiyyat mərkəzinin yerləşdiyi rayon</value>
+  </data>
+  <data name="Registration_number" xml:space="preserve">
+    <value>Qeydiyyat nömrəsi</value>
+  </data>
+  <data name="Request_Type" xml:space="preserve">
+    <value>Sorğu tipi</value>
+  </data>
+  <data name="Revocation_date" xml:space="preserve">
+    <value>Ləğvetmə tarixi</value>
+  </data>
+  <data name="Rules" xml:space="preserve">
+    <value>Qaydalar</value>
+  </data>
+  <data name="Secret_key_export" xml:space="preserve">
+    <value>Məxfi açarın ixracı</value>
+  </data>
+  <data name="Security_code" xml:space="preserve">
+    <value>Açar söz</value>
+  </data>
+  <data name="Security_code_repeat" xml:space="preserve">
+    <value>Açar söz (təkrar)</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Xidmətin adı</value>
+  </data>
+  <data name="ServiceType" xml:space="preserve">
+    <value>Xidmətin növü</value>
+  </data>
+  <data name="SMS_approval_code" xml:space="preserve">
+    <value>SMS təsdiq kodu</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Structure_section" xml:space="preserve">
+    <value>Struktur bölmə</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="SWIFT_BIC_code" xml:space="preserve">
+    <value>SWIFT/BIC kodu</value>
+  </data>
+  <data name="S_N" xml:space="preserve">
+    <value>S/N</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Şablon</value>
+  </data>
+  <data name="TIN" xml:space="preserve">
+    <value>Təşkilatın VÖEN-i</value>
+  </data>
+  <data name="Token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Total_amount" xml:space="preserve">
+    <value>Cəmi məbləğ</value>
+  </data>
+  <data name="Type_of_survey" xml:space="preserve">
+    <value>Sorğunun növü</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>İstifadəçi adı</value>
+  </data>
+  <data name="Validity_date_end" xml:space="preserve">
+    <value>Qüvvədə olma müddəti (son)</value>
+  </data>
+  <data name="Validity_date_start" xml:space="preserve">
+    <value>Qüvvədə olma müddəti (başl)</value>
+  </data>
+  <data name="Work_phone" xml:space="preserve">
+    <value>İş telefonu</value>
+  </data>
+</root>

@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT_BCSC" xml:space="preserve">
+    <value>BSXM HAQQINDA</value>
+  </data>
+  <data name="ABOUT_PROJECT" xml:space="preserve">
+    <value>PORTAL HAQQINDA</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Qəbul et</value>
+  </data>
+  <data name="Additional_notes_administrator" xml:space="preserve">
+    <value>İnzibatçının əlavə qeydləri</value>
+  </data>
+  <data name="Ajax_error" xml:space="preserve">
+    <value>Səhv! Sorğu icra oluna bilmədi</value>
+  </data>
+  <data name="Ajax_server_error" xml:space="preserve">
+    <value>Sorğunun emalında səhv oldu</value>
+  </data>
+  <data name="Approve_code_is_required" xml:space="preserve">
+    <value>Təsdiq kodu daxil edilməyib</value>
+  </data>
+  <data name="Approve_Email" xml:space="preserve">
+    <value>Email ilə təsdiqlə</value>
+  </data>
+  <data name="Approve_SMS" xml:space="preserve">
+    <value>SMS ilə təsdiqlə</value>
+  </data>
+  <data name="Are_you_sure_want_accept_certificate" xml:space="preserve">
+    <value>Sorğunu qəbul etmək istədiyinizə əminsinizmi?</value>
+  </data>
+  <data name="Are_you_sure_want_cancel_certificate" xml:space="preserve">
+    <value>Sorğunu ləğv etmək istədiyinizə əminsinizmi?</value>
+  </data>
+  <data name="Are_you_sure_want_hold_certificate" xml:space="preserve">
+    <value>Sorğunu dayandırmaq istədiyinizə əminsinizmi?</value>
+  </data>
+  <data name="Are_you_sure_want_revoke_certificate" xml:space="preserve">
+    <value>Sertifikatı ləğv etmək istədiyinizə əminsinizmi?</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="Back_enlisted_certificates" xml:space="preserve">
+    <value>Geri çağrılmış sertifikatlar</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ləğv et</value>
+  </data>
+  <data name="CENTRAL_BANK" xml:space="preserve">
+    <value>MƏRKƏZİ BANK</value>
+  </data>
+  <data name="CENTRAL_BANK_OF_AZERBAIJAN" xml:space="preserve">
+    <value>AZƏRBAYCAN RESPUBLİKASI MƏRKƏZİ BANKININ</value>
+  </data>
+  <data name="Cerfiticate_expire_date" xml:space="preserve">
+    <value>Sertifikatın qüvvədə olma müddəti</value>
+  </data>
+  <data name="Ceritficate_request" xml:space="preserve">
+    <value>Sertifikat sorğusu</value>
+  </data>
+  <data name="Ceritficate_requests" xml:space="preserve">
+    <value>Sertifikat sorğuları</value>
+  </data>
+  <data name="Certificate_exists" xml:space="preserve">
+    <value>Bu tokendə artıq bir sertifikat var. Hər bir tokendə yalnız bir sertifikat ola bilər.</value>
+  </data>
+  <data name="Certificate_name" xml:space="preserve">
+    <value>Sertifikatın adı</value>
+  </data>
+  <data name="Certificate_not_found" xml:space="preserve">
+    <value>Axtarış parametrlərinə uyğun sertifikat tapılmadı</value>
+  </data>
+  <data name="Certificate_owner" xml:space="preserve">
+    <value>Sertifikat sahibi</value>
+  </data>
+  <data name="Certificate_payment" xml:space="preserve">
+    <value>Sertifikatın ödənişi</value>
+  </data>
+  <data name="Certifications_Report" xml:space="preserve">
+    <value>Sertifikatlar hesabatı</value>
+  </data>
+  <data name="Change_password" xml:space="preserve">
+    <value>Parolu dəyiş</value>
+  </data>
+  <data name="Check_connection_with_inquiry_generator" xml:space="preserve">
+    <value>Sorğu generatoru ilə əlaqəni yoxla</value>
+  </data>
+  <data name="Check_for_payment" xml:space="preserve">
+    <value>Ödəniş olunmasını yoxla</value>
+  </data>
+  <data name="Common_name" xml:space="preserve">
+    <value>Ümumi ad</value>
+  </data>
+  <data name="Confirm_new_password" xml:space="preserve">
+    <value>Yeni parol (təkrar)</value>
+  </data>
+  <data name="CONTACT_INFORMATION" xml:space="preserve">
+    <value>ƏLAQƏ MƏLUMATLARI</value>
+  </data>
+  <data name="CONTACT_US" xml:space="preserve">
+    <value>BİZİMLƏ ƏLAQƏ</value>
+  </data>
+  <data name="copyright_text" xml:space="preserve">
+    <value>Azərbaycan Respublikası Mərkəzi Bankının Elektron Xidmətlər Portalı</value>
+  </data>
+  <data name="Could_not_connect_request_generator" xml:space="preserve">
+    <value>Səhv! &lt;a href=\"{0}\" target=\"_blank\"&gt;Sorğu generatoru&lt;/a&gt; servisinə qoşulmaq mümkün olmadı.</value>
+  </data>
+  <data name="Could_not_install_cert" xml:space="preserve">
+    <value>Səhv! Sertifikatı quraşdırmaq mümkün olmadı</value>
+  </data>
+  <data name="Create_new_survey" xml:space="preserve">
+    <value>Yeni sorğu yaratmaq</value>
+  </data>
+  <data name="Current_password" xml:space="preserve">
+    <value>İndiki parol</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarix</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Bölmə</value>
+  </data>
+  <data name="Determine_reasons_request_canceled" xml:space="preserve">
+    <value>Sizin sorğunuz müəyyən səbəblər üzündən (sonradan qeyd olunacaq) ləğv olunub</value>
+  </data>
+  <data name="DOCUMENTS" xml:space="preserve">
+    <value>SƏNƏDLƏR</value>
+  </data>
+  <data name="Document_subject" xml:space="preserve">
+    <value>Sənədin mövzusu</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Yüklə</value>
+  </data>
+  <data name="Download_certificate" xml:space="preserve">
+    <value>Sertifikatı yüklə</value>
+  </data>
+  <data name="Download_certificate_file" xml:space="preserve">
+    <value>Sertifikat faylını yüklə (.cer)</value>
+  </data>
+  <data name="Download_Survey_generator_program" xml:space="preserve">
+    <value>Sorğu generatoru proqramını yüklə</value>
+  </data>
+  <data name="Download_the_application_form" xml:space="preserve">
+    <value>Ərizə formasını yüklə</value>
+  </data>
+  <data name="Driver_name" xml:space="preserve">
+    <value>Drayverin adı</value>
+  </data>
+  <data name="Driver_size" xml:space="preserve">
+    <value>Drayverin ölçüsü</value>
+  </data>
+  <data name="Eject_token" xml:space="preserve">
+    <value>Microsoft CSP ilə sorğu yaratmağın normal işləməsi üçün tokeni kompüterdən çıxarın</value>
+  </data>
+  <data name="ELECTRONIC_SERVICES_PORTAL" xml:space="preserve">
+    <value>ELEKTRON XİDMƏTLƏR PORTALI</value>
+  </data>
+  <data name="Email_sent_to_number" xml:space="preserve">
+    <value>Təsdiq məktubu {0} e-poçt ünvanına göndərildi. Zəhmət olmasa, məktubu açıb təsdiqləyin.</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Bitmə</value>
+  </data>
+  <data name="Enter_the_code_in_the_picture" xml:space="preserve">
+    <value>Şəkildəki kodu daxil edin</value>
+  </data>
+  <data name="Entry" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Çıxış</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="Failed_attempt_count_exceeded_limit" xml:space="preserve">
+    <value>Uğursuz cəhd sayı limiti keçdi</value>
+  </data>
+  <data name="Frequently_asked_questions" xml:space="preserve">
+    <value>Tez-tez verilən suallar</value>
+  </data>
+  <data name="Go_to_test_url" xml:space="preserve">
+    <value>Sorğu generatoru servisinə qoşulmanı yoxla</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Dayandır</value>
+  </data>
+  <data name="HOME_PAGE" xml:space="preserve">
+    <value>ANA SƏHİFƏ</value>
+  </data>
+  <data name="Incorrect_PIN" xml:space="preserve">
+    <value>PIN düzgün deyil</value>
+  </data>
+  <data name="INFORMATION_ABOUT_THE_ORGANIZATION" xml:space="preserve">
+    <value>TƏŞKİLAT HAQQINDA MƏLUMATLAR</value>
+  </data>
+  <data name="INFORMATION_CERTIFICATE" xml:space="preserve">
+    <value>SERTİFİKAT MƏLUMATLARI</value>
+  </data>
+  <data name="Install_certificate" xml:space="preserve">
+    <value>Sertifikatı quraşdır</value>
+  </data>
+  <data name="Invoice_number" xml:space="preserve">
+    <value>Invoice nömrəsi</value>
+  </data>
+  <data name="In_validation_period" xml:space="preserve">
+    <value>Yoxlanma mərhələsində olan</value>
+  </data>
+  <data name="It_was_not_possible_create_certificate_request" xml:space="preserve">
+    <value>Səhv! Sertifikat sorğusu yaratmaq mümkün olmadı.</value>
+  </data>
+  <data name="Log_in" xml:space="preserve">
+    <value>Daxil ol</value>
+  </data>
+  <data name="Log_in_e_signature" xml:space="preserve">
+    <value>E-imza ilə giriş</value>
+  </data>
+  <data name="Make_payment" xml:space="preserve">
+    <value>Ödəniş et</value>
+  </data>
+  <data name="Max_length_of_form_data_exceeded" xml:space="preserve">
+    <value>Məlumatın ölçüsü sertifikat üçün maksimal ölçüdən böyükdür. Zəhmət olmasa təşkilatın adı və ya digər uzun olan xananı qısaldıb yenidən yoxlayın.</value>
+  </data>
+  <data name="Mobile_SMS_hint" xml:space="preserve">
+    <value>Bu nömrəyə təsdiq üçün SMS göndəriləcək</value>
+  </data>
+  <data name="New_password" xml:space="preserve">
+    <value>Yeni parol</value>
+  </data>
+  <data name="New_survey_generator" xml:space="preserve">
+    <value>Diqqət! Yeni sorğu yaratmaq üçün lazım olan &lt;a href=\"{0}\" target=\"_blank\"&gt;sorğu generatoru&lt;/a&gt; servisinə qoşulmaq mümkün olmadı.</value>
+  </data>
+  <data name="New_survey_generator_app_download" xml:space="preserve">
+    <value>Sertifikat sorğusunun yaradılması üçün müvafiq proqram təminatı kompüterinizdə quraşdırılmalıdır. Proqram təminatını yükləmək və quraşdırmaq üçün &lt;a href={0} target="_blank"&gt;bu keçiddən&lt;/a&gt; istifadə etməyiniz xahiş olunur.</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Növbəti</value>
+  </data>
+  <data name="Not_passed_validation" xml:space="preserve">
+    <value>Yoxlamadan keçməmiş</value>
+  </data>
+  <data name="Old_version" xml:space="preserve">
+    <value>Səhv! Siz sorğu generatoru proqramının köhnə versiyasını işlədirsiz. Zəhmət olmasa yeni versiyanı yükləyin.</value>
+  </data>
+  <data name="Old_version_with_url" xml:space="preserve">
+    <value>Səhv! Siz sorğu generatoru proqramının köhnə versiyasını işlədirsiz. Zəhmət olmasa &lt;a href=\"{0}\" target=\"_blank\"&gt;yeni versiya&lt;/a&gt;nı yükləyin.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="Operating_system" xml:space="preserve">
+    <value>Əməliyyat sistemi</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Təşkilat</value>
+  </data>
+  <data name="OTHER_INFORMATION" xml:space="preserve">
+    <value>DİGƏR MƏLUMATLAR</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Ödəniş</value>
+  </data>
+  <data name="Payment_amount" xml:space="preserve">
+    <value>Ödəniş məbləği</value>
+  </data>
+  <data name="Payment_completed_successfully" xml:space="preserve">
+    <value>Ödəniş uğurla başa çatdı.</value>
+  </data>
+  <data name="Payment_date" xml:space="preserve">
+    <value>Ödəniş tarixi</value>
+  </data>
+  <data name="Payment_type" xml:space="preserve">
+    <value>Ödəniş növü</value>
+  </data>
+  <data name="Payment_was_made" xml:space="preserve">
+    <value>Ödəniş keçmiş</value>
+  </data>
+  <data name="PERSONAL_INFORMATION" xml:space="preserve">
+    <value>ŞƏXSİ MƏLUMATLAR</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="PII_agree" xml:space="preserve">
+    <value>Fərdi məlumatların emalı qaydaları ilə razıyam</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Çap</value>
+  </data>
+  <data name="Program_name" xml:space="preserve">
+    <value>Proqramın adı</value>
+  </data>
+  <data name="RC" xml:space="preserve">
+    <value>QM</value>
+  </data>
+  <data name="Ready_to_request" xml:space="preserve">
+    <value>Hazır sorğu göndərmək</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>Qəbz</value>
+  </data>
+  <data name="Receipt_not_sent" xml:space="preserve">
+    <value>Qəbzin göndərilməsi zamanı xəta yarandı</value>
+  </data>
+  <data name="Receipt_sent" xml:space="preserve">
+    <value>Qəbz e-poçt ünvanınıza göndərildi</value>
+  </data>
+  <data name="Recheck" xml:space="preserve">
+    <value>Yenidən yoxla</value>
+  </data>
+  <data name="Register_date" xml:space="preserve">
+    <value>Qeydiyyat tarixi</value>
+  </data>
+  <data name="REGISTRATION_CENTER_LOGIN" xml:space="preserve">
+    <value>QEYDİYYAT MƏRKƏZİ</value>
+  </data>
+  <data name="REGISTRATION_CENTER_WORKPLACE" xml:space="preserve">
+    <value>QEYDİYYAT MƏRKƏZİNİN İŞ YERİ</value>
+  </data>
+  <data name="Registration_number" xml:space="preserve">
+    <value>Qeydiyyat nömrəsi</value>
+  </data>
+  <data name="Request_canceled" xml:space="preserve">
+    <value>Sizin sorğunuz ləğv olunub</value>
+  </data>
+  <data name="Request_certificate_registered_and_sent" xml:space="preserve">
+    <value>Sizin sorğunuz qeydiyyata alınaraq sertifikatlaşdırılmaq üçün sertifikasiya mərkəzinə göndərilib</value>
+  </data>
+  <data name="Request_has_not_yet_considered" xml:space="preserve">
+    <value>Sizin sorğunuza hələ baxılmayıb</value>
+  </data>
+  <data name="REQUEST_INFORMATION" xml:space="preserve">
+    <value>SORĞU MƏLUMATLARI</value>
+  </data>
+  <data name="Request_prepared_certificates" xml:space="preserve">
+    <value>Sizin sorğunuz üzrə sertifikat hazırlanıb</value>
+  </data>
+  <data name="Request_temporarily_suspended_registration" xml:space="preserve">
+    <value>Sizin sorğunuzun qeydiyyatı müvəqqəti olaraq təxirə salınıb</value>
+  </data>
+  <data name="Request_text" xml:space="preserve">
+    <value>Sorğu mətni</value>
+  </data>
+  <data name="Resend_code" xml:space="preserve">
+    <value>Kodu yenidən göndər</value>
+  </data>
+  <data name="Revokation_queries" xml:space="preserve">
+    <value>Ləğvetmə sorğuları</value>
+  </data>
+  <data name="Revokation_query" xml:space="preserve">
+    <value>Ləğvetmə sorğusu</value>
+  </data>
+  <data name="RevokeCert" xml:space="preserve">
+    <value>Sertifikatı ləğv et</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="Search_data_have_been_included_in_error" xml:space="preserve">
+    <value>Axtarış məlumatları səhv daxil edilib. Zəhmət olmasa yenidən cəhd edin</value>
+  </data>
+  <data name="Selected_certificate_recall" xml:space="preserve">
+    <value>Seçilmiş sertifikat(lar)ı geri çağır</value>
+  </data>
+  <data name="Send_receipt" xml:space="preserve">
+    <value>Qəbzi e-poçt ünvanına göndər</value>
+  </data>
+  <data name="Send_request" xml:space="preserve">
+    <value>Sorğunu göndər</value>
+  </data>
+  <data name="Sent_request_certificate_recall" xml:space="preserve">
+    <value>{0} sertifikat üçün geri çağırma sorğusu göndərildi</value>
+  </data>
+  <data name="Sent_to_payment" xml:space="preserve">
+    <value>Ödənişə göndərilmiş</value>
+  </data>
+  <data name="SMS_approval_code_is_wrong" xml:space="preserve">
+    <value>Təsdiq kodu səhvdir</value>
+  </data>
+  <data name="SMS_approved" xml:space="preserve">
+    <value>Kod təsdiqləndi</value>
+  </data>
+  <data name="SMS_exceeded_limit" xml:space="preserve">
+    <value>Göndərilən say limiti keçdi</value>
+  </data>
+  <data name="SMS_resend_message" xml:space="preserve">
+    <value>Təsdiq kodu gəlmədi?</value>
+  </data>
+  <data name="SMS_resent" xml:space="preserve">
+    <value>Təsdiq kodu yenidən göndərildi</value>
+  </data>
+  <data name="SMS_resent_to_number" xml:space="preserve">
+    <value>Təsdiq kodu {0} nömrəsinə yenidən göndərildi</value>
+  </data>
+  <data name="SMS_sent_to_number" xml:space="preserve">
+    <value>Təsdiq kodu {0} nömrəsinə göndərildi</value>
+  </data>
+  <data name="SOFTWARE" xml:space="preserve">
+    <value>PROQRAM TƏMİNATI</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Başlama</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Göndər</value>
+  </data>
+  <data name="Successfully_changed_password" xml:space="preserve">
+    <value>Parol müvəffəqiyyətlə dəyişdirildi.</value>
+  </data>
+  <data name="Successful_request_generator_connection" xml:space="preserve">
+    <value>Sorğu generatoru servisinə qoşulmaq müvəffəqiyyətli oldu.</value>
+  </data>
+  <data name="Success_install_cert" xml:space="preserve">
+    <value>Sertifikat müvəffəqiyyətlə quraşdırıldı</value>
+  </data>
+  <data name="Survey_did_not_connect_generator_service" xml:space="preserve">
+    <value>Səhv! Sorğu generatoru servisinə qoşulmaq mümkün olmadı.</value>
+  </data>
+  <data name="Survey_Number" xml:space="preserve">
+    <value>Unikal nömrə</value>
+  </data>
+  <data name="Token_not_found" xml:space="preserve">
+    <value>Token tapılmadı</value>
+  </data>
+  <data name="Token_order_added" xml:space="preserve">
+    <value>Sifarişiniz əlavə olundu. Akt nömrəsi:</value>
+  </data>
+  <data name="Token_payment" xml:space="preserve">
+    <value>Token ödənişi</value>
+  </data>
+  <data name="Token_sale" xml:space="preserve">
+    <value>Token satışı</value>
+  </data>
+  <data name="Token_sales" xml:space="preserve">
+    <value>Token satışları</value>
+  </data>
+  <data name="Transaction_id" xml:space="preserve">
+    <value>Tranzaksiya nömrəsi</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Yenilə</value>
+  </data>
+  <data name="Update_date" xml:space="preserve">
+    <value>Yenilənmə tarixi</value>
+  </data>
+  <data name="User_certificates" xml:space="preserve">
+    <value>İstifadəçi sertifikatları</value>
+  </data>
+  <data name="User_certificaty" xml:space="preserve">
+    <value>İstifadəçi sertifikati</value>
+  </data>
+  <data name="Validity_time" xml:space="preserve">
+    <value>Qüvvədə olma vaxtı</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versiya</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>DİQQƏT</value>
+  </data>
+  <data name="Withdraw_certificate_chose_continue" xml:space="preserve">
+    <value>{0} sertifikat tapıldı. Geri çağırmaq istədiyiniz sertifikat(lar)ı seçib davam edin.</value>
+  </data>
+  <data name="Your_request_has_not_yet_considered" xml:space="preserve">
+    <value>Sizin sorğunuza hələ baxılmayıb</value>
+  </data>
+</root>

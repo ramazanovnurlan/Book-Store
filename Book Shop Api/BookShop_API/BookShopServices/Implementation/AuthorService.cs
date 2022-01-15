@@ -18,7 +18,6 @@ namespace BookShop_API.BookShopServices.Implementation
         private readonly IRepository<BookAuthor> _bookauthor;
         private readonly IRepository<BookCategory> _bookcategory;
         private readonly IRepository<Category> _category;
-
         //    private readonly ILoggerManager _logger;
 
 

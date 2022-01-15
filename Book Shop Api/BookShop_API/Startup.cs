@@ -118,6 +118,7 @@ namespace BookShop_API
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 }

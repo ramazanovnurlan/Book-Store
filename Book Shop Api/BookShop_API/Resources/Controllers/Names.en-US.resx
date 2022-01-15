@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept_agreement" xml:space="preserve">
+    <value>I agree with certificate revokation rules</value>
+  </data>
+  <data name="Assignment_of_certificate" xml:space="preserve">
+    <value>Assignment of certificate</value>
+  </data>
+  <data name="Azerbaijan" xml:space="preserve">
+    <value>Azerbaijan</value>
+  </data>
+  <data name="Birth_place" xml:space="preserve">
+    <value>Birth place</value>
+  </data>
+  <data name="Card_first_six_digits" xml:space="preserve">
+    <value>First six digits of the payment card</value>
+  </data>
+  <data name="Card_number" xml:space="preserve">
+    <value>Card number</value>
+  </data>
+  <data name="Card_series" xml:space="preserve">
+    <value>Card series</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CertAssignment" xml:space="preserve">
+    <value>Assignment of certificate</value>
+  </data>
+  <data name="Certificate_common_name_CN" xml:space="preserve">
+    <value>Certificate common name (CN)</value>
+  </data>
+  <data name="Certificate_Request_CSR_text" xml:space="preserve">
+    <value>Certificate Request (CSR) text</value>
+  </data>
+  <data name="Certificate_Template" xml:space="preserve">
+    <value>Certificate template</value>
+  </data>
+  <data name="Certification_center" xml:space="preserve">
+    <value>Certification center</value>
+  </data>
+  <data name="CertTemplate" xml:space="preserve">
+    <value>Template of certificate</value>
+  </data>
+  <data name="Citizenship" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Cryptoprovider_type" xml:space="preserve">
+    <value>Cryptoprovider type</value>
+  </data>
+  <data name="Crypt_CSP_type" xml:space="preserve">
+    <value>Cryptoprovider (CSP) type</value>
+  </data>
+  <data name="Date_of_birth" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Date_of_birth_day_month_year" xml:space="preserve">
+    <value>Date of birth (day,month,year)</value>
+  </data>
+  <data name="DMX_doc_number" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="DMX_doc_type" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="DMX_doc_type_permanent" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="DMX_doc_type_temporary" xml:space="preserve">
+    <value>Temporary</value>
+  </data>
+  <data name="Dns_Names" xml:space="preserve">
+    <value>SAN dns names</value>
+  </data>
+  <data name="Effective_Date" xml:space="preserve">
+    <value>Effective date</value>
+  </data>
+  <data name="Expiry_Date" xml:space="preserve">
+    <value>Expiry date</value>
+  </data>
+  <data name="E_mail_address" xml:space="preserve">
+    <value>E-mail address</value>
+  </data>
+  <data name="E_signature_carrier_serial_number" xml:space="preserve">
+    <value>E-signature carrier serial number</value>
+  </data>
+  <data name="Father_s_name" xml:space="preserve">
+    <value>Father's name</value>
+  </data>
+  <data name="Home_Address" xml:space="preserve">
+    <value>Home address</value>
+  </data>
+  <data name="ID_card_PIN_code" xml:space="preserve">
+    <value>ID card PIN code</value>
+  </data>
+  <data name="ID_card_serial_number" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="IpAdresses" xml:space="preserve">
+    <value>SAN ip list</value>
+  </data>
+  <data name="Juridical_person" xml:space="preserve">
+    <value>Juridical person</value>
+  </data>
+  <data name="Key_length" xml:space="preserve">
+    <value>Key length</value>
+  </data>
+  <data name="manat" xml:space="preserve">
+    <value>AZN</value>
+  </data>
+  <data name="Mobile_phone" xml:space="preserve">
+    <value>Mobile phone</value>
+  </data>
+  <data name="Mobile_phone_code" xml:space="preserve">
+    <value>Mobile phone code</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name_of_organization" xml:space="preserve">
+    <value>Name of organization</value>
+  </data>
+  <data name="Nonresident" xml:space="preserve">
+    <value>Nonresident</value>
+  </data>
+  <data name="Organization_address" xml:space="preserve">
+    <value>Organization address</value>
+  </data>
+  <data name="organization_s_phone_number" xml:space="preserve">
+    <value>Organization's phone number</value>
+  </data>
+  <data name="organization_s_zip_code" xml:space="preserve">
+    <value>Organization's zip code</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Physical_person" xml:space="preserve">
+    <value>Physical person</value>
+  </data>
+  <data name="PIN_code" xml:space="preserve">
+    <value>PIN code</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Reason_for_liquidation" xml:space="preserve">
+    <value>Revokation reason</value>
+  </data>
+  <data name="Reason_for_liquidation_large_explanation" xml:space="preserve">
+    <value>Revokation reason (explanation)</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Registered_address" xml:space="preserve">
+    <value>Registered address</value>
+  </data>
+  <data name="Registration_center" xml:space="preserve">
+    <value>Registration center</value>
+  </data>
+  <data name="Registration_center_address" xml:space="preserve">
+    <value>Registration center address</value>
+  </data>
+  <data name="Registration_in_the_district_center" xml:space="preserve">
+    <value>Registration center district</value>
+  </data>
+  <data name="Registration_number" xml:space="preserve">
+    <value>Registration number</value>
+  </data>
+  <data name="Request_Type" xml:space="preserve">
+    <value>Request type</value>
+  </data>
+  <data name="Revocation_date" xml:space="preserve">
+    <value>Revocation date</value>
+  </data>
+  <data name="Rules" xml:space="preserve">
+    <value>Rules</value>
+  </data>
+  <data name="Secret_key_export" xml:space="preserve">
+    <value>Secret key export</value>
+  </data>
+  <data name="Security_code" xml:space="preserve">
+    <value>Security code</value>
+  </data>
+  <data name="Security_code_repeat" xml:space="preserve">
+    <value>Confirm security code</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Service name</value>
+  </data>
+  <data name="ServiceType" xml:space="preserve">
+    <value>Service type</value>
+  </data>
+  <data name="SMS_approval_code" xml:space="preserve">
+    <value>SMS approval code</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Structure_section" xml:space="preserve">
+    <value>Organizational unit</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="SWIFT_BIC_code" xml:space="preserve">
+    <value>SWIFT/BIC code</value>
+  </data>
+  <data name="S_N" xml:space="preserve">
+    <value>S/N</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="TIN" xml:space="preserve">
+    <value>Tax Identification Number</value>
+  </data>
+  <data name="Token" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="Total_amount" xml:space="preserve">
+    <value>Total amount</value>
+  </data>
+  <data name="Type_of_survey" xml:space="preserve">
+    <value>Request type</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Validity_date_end" xml:space="preserve">
+    <value>Validity date (end)</value>
+  </data>
+  <data name="Validity_date_start" xml:space="preserve">
+    <value>Validity date (start)</value>
+  </data>
+  <data name="Work_phone" xml:space="preserve">
+    <value>Work phone</value>
+  </data>
+</root>
